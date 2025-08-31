@@ -17,8 +17,22 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-- Instalar as dependências listadas em requirements.txt (o diretório selecionado para testes foi o Part-07 Wish List)
+- Instalar as dependências listadas em requirements.txt
 
 ```python
 pip install -r requirements.txt
 ```
+
+#### Etapa 2: Execução dos testes
+
+- run tests normally
+``` pytest -vv  cal.py ```
+
+- perform tests with line (node) coverage report
+``` pytest -vv  test_cal.py  --cov=cal ``` 
+
+- perform tests with branch coverage report
+``` pytest -vv  test_cal.py  --cov=cal  --cov-branch  --cov-report html ```
+
+- run tests with mutmut
+``` mutmut run --paths-to-mutate= .. /cal_python/cal.py ```

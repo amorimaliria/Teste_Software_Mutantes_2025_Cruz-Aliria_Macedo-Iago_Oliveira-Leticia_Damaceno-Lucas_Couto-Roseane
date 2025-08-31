@@ -1,0 +1,73 @@
+{
+    "tests_by_mangled_function_name": {
+        "cal.x_cal": [
+            "test_cal.py::test_cal"
+        ],
+        "cal.x_is_leap": [
+            "test_cal.py::test_is_leap[4-True]",
+            "test_cal.py::test_is_leap[1903-False]",
+            "test_cal.py::test_first_of_month[input2-4]",
+            "test_cal.py::test_first_of_month[input3-2]",
+            "test_cal.py::test_is_leap[2000-True]",
+            "test_cal.py::test_number_of_days[input2-31]",
+            "test_cal.py::test_number_of_days[input1-29]",
+            "test_cal.py::test_is_leap[1900-False]",
+            "test_cal.py::test_number_of_days[input4-31]",
+            "test_cal.py::test_number_of_days[input0-31]",
+            "test_cal.py::test_first_of_month[input1-2]",
+            "test_cal.py::test_is_leap[1904-True]",
+            "test_cal.py::test_first_of_month[input0-6]",
+            "test_cal.py::test_first_of_month[input4-3]",
+            "test_cal.py::test_number_of_days[input3-19]",
+            "test_cal.py::test_is_leap[1501-False]"
+        ],
+        "cal.x_first_of_month": [
+            "test_cal.py::test_first_of_month[input2-4]",
+            "test_cal.py::test_first_of_month[input3-2]",
+            "test_cal.py::test_first_of_month[input1-2]",
+            "test_cal.py::test_first_of_month[input0-6]",
+            "test_cal.py::test_first_of_month[input4-3]"
+        ],
+        "cal.x_jan1": [
+            "test_cal.py::test_first_of_month[input2-4]",
+            "test_cal.py::test_first_of_month[input3-2]",
+            "test_cal.py::test_jan1[1500-3]",
+            "test_cal.py::test_jan1[1780-6]",
+            "test_cal.py::test_jan1[1801-4]",
+            "test_cal.py::test_first_of_month[input1-2]",
+            "test_cal.py::test_first_of_month[input0-6]",
+            "test_cal.py::test_first_of_month[input4-3]"
+        ],
+        "cal.x_number_of_days": [
+            "test_cal.py::test_number_of_days[input2-31]",
+            "test_cal.py::test_number_of_days[input1-29]",
+            "test_cal.py::test_number_of_days[input4-31]",
+            "test_cal.py::test_number_of_days[input0-31]",
+            "test_cal.py::test_number_of_days[input3-19]"
+        ]
+    },
+    "duration_by_test": {
+        "test_cal.py::test_cal": 0.0003544999999576248,
+        "test_cal.py::test_is_leap[4-True]": 0.00035479999951348873,
+        "test_cal.py::test_is_leap[1501-False]": 0.00030310000056488207,
+        "test_cal.py::test_is_leap[1900-False]": 0.00034650100042199483,
+        "test_cal.py::test_is_leap[1903-False]": 0.000293000000056054,
+        "test_cal.py::test_is_leap[1904-True]": 0.0002922000003309222,
+        "test_cal.py::test_is_leap[2000-True]": 0.00047010100024635904,
+        "test_cal.py::test_mutation_is_leap": 0.0004009000003861729,
+        "test_cal.py::test_first_of_month[input0-6]": 0.0003062999994654092,
+        "test_cal.py::test_first_of_month[input1-2]": 0.0003105000005234615,
+        "test_cal.py::test_first_of_month[input2-4]": 0.0003102000000581029,
+        "test_cal.py::test_first_of_month[input3-2]": 0.0004139000002396642,
+        "test_cal.py::test_first_of_month[input4-3]": 0.00039920000017446,
+        "test_cal.py::test_jan1[1801-4]": 0.0002675000005183392,
+        "test_cal.py::test_jan1[1780-6]": 0.00030150099973980105,
+        "test_cal.py::test_jan1[1500-3]": 0.0003422009995119879,
+        "test_cal.py::test_number_of_days[input0-31]": 0.0005615000000034343,
+        "test_cal.py::test_number_of_days[input1-29]": 0.0002669000004971167,
+        "test_cal.py::test_number_of_days[input2-31]": 0.0002845999997589388,
+        "test_cal.py::test_number_of_days[input3-19]": 0.0003467010001259041,
+        "test_cal.py::test_number_of_days[input4-31]": 0.00046780000047874637
+    },
+    "stats_time": 0.7793749999999999
+}
