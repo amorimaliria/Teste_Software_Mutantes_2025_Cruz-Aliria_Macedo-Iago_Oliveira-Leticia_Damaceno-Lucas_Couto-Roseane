@@ -4,7 +4,7 @@
 
 ### A atividade proposta envolve a execução de testes de mutação em um projeto Python, a análise dos resultados e a criação de um relatório detalhado. O objetivo é identificar e documentar os mutantes gerados, a partir de modificações no código original, e avaliar a eficácia dos testes de mutação. O relatório apresenta os resultados obtidos, incluindo a quantidade de mutantes mortos e vivos, bem como a análise dos testes e a interpretação dos resultados. 
 
-### O documento contendo o turorial das etapas executadas pode ser acessado através do link: (https://docs.google.com/document/d/15vW1KciF-7mrRv0V0q1lecDPQhmh4QdsJKR-A1MLIh0/edit?usp=sharing)[Documento Tutorial]
+### O documento contendo o turorial das etapas executadas pode ser acessado através do link: [https://docs.google.com/document/d/15vW1KciF-7mrRv0V0q1lecDPQhmh4QdsJKR-A1MLIh0/edit?usp=sharing](Documento Tutorial)
 
 ### 1- Execução do roteiro do vídeo indicado
 #### Etapa 1
