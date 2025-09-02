@@ -37,3 +37,45 @@ pip install -r requirements.txt
 
 - run tests with mutmut
 ``` mutmut run --paths-to-mutate= .. /cal_python/cal.py ```
+
+### 3- Execução dos testes no projeto selecionado
+
+#### Etapa 1
+Configuração do Ambiente (Windows WSL):
+
+- Criar ambiente virtual
+``` cd django-ecomerce 
+```
+
+```python
+python -m venv venv
+```
+
+- Ativar o ambiente virtual
+```python
+source venv/bin/activate
+```
+
+- Atualizar pip:
+```python
+python -m pip install --upgrade pip
+``` 
+
+- Instalar pytest
+```python
+sudo apt install python3-pytest
+```
+
+#### Etapa 2: Execução dos testes
+
+- Execução padrão ods testes
+``` pytest -v ```
+
+- perform tests with line (node) coverage report
+``` pytest -vv  test_cal.py  --cov=cal ``` 
+
+- perform tests with branch coverage report
+``` python
+pytest -vv test_cal.py --cov=cal --cov-branch --cov-report html
+```
+
